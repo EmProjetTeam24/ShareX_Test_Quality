@@ -1,0 +1,799 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ShareX.ApplicationConfig" Collapsed="true">
+    <Position X="29.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>w0RBbgd5DEFAWicxBCFJtACUxEoj0gIAhAAYAgQJEcg=</HashCode>
+      <FileName>ApplicationConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.BalloonTipAction" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAA=</HashCode>
+      <FileName>BalloonTipAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.CaptureActiveMonitor">
+    <Position X="1.25" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CaptureHelpers\CaptureActiveMonitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.CaptureActiveWindow">
+    <Position X="3.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CaptureHelpers\CaptureActiveWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.CaptureBase">
+    <Position X="8.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAIACAAAAAAQAAAAAAAAABAAAAAAAABEAAAAAAAA=</HashCode>
+      <FileName>CaptureHelpers\CaptureBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.CaptureCustomRegion">
+    <Position X="6.25" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CaptureHelpers\CaptureCustomRegion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.CaptureFullscreen">
+    <Position X="8.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CaptureHelpers\CaptureFullscreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.CaptureLastRegion">
+    <Position X="13.75" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CaptureHelpers\CaptureLastRegion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.CaptureMonitor">
+    <Position X="11" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CaptureHelpers\CaptureMonitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.CaptureRegion">
+    <Position X="13.5" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAIAQAAAAAAAAABAAAAAAAAQAAAABAAAA=</HashCode>
+      <FileName>CaptureHelpers\CaptureRegion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.CaptureWindow">
+    <Position X="16.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CaptureHelpers\CaptureWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.BeforeUploadControl" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="ShareX.BeforeUploadControl.EventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\BeforeUploadControl.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAIEAAACAAAACAAAAIAAAAAACAAAAQwA=</HashCode>
+      <FileName>Controls\BeforeUploadControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.HotkeySelectionControl" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gYEggAAACCIgAAABAECgIEADAAAAEIAAAQAEimBAgBI=</HashCode>
+      <FileName>Controls\HotkeySelectionControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.NewsListControl" Collapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACAAIAAAAACAAACCgIAQEAAQAAgQDAAgAEA=</HashCode>
+      <FileName>Controls\NewsListControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.TaskRoundedCornerPanel" Collapsed="true">
+    <Position X="29.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Controls\TaskRoundedCornerPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.TaskThumbnailPanel" Collapsed="true">
+    <Position X="29.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQICACAESCAAAEAAIEKAAggDAhBQNAAQCMhBAQKDQAQ=</HashCode>
+      <FileName>Controls\TaskThumbnailPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.TaskThumbnailView" Collapsed="true">
+    <Position X="31.5" Y="6.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="ShareX.TaskThumbnailView.TaskViewMouseEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\TaskThumbnailView.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAIIAAAAACAAEAAAAAmACAACABFQAQCRAABAEAADQAA=</HashCode>
+      <FileName>Controls\TaskThumbnailView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.EasterEggAboutAnimation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACAAoAAIAAIAABiBAAAAAAAAIBAggAAAAAA=</HashCode>
+      <FileName>EasterEggAboutAnimation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ShareX.EasterEggBounce" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAgACAAQAAAAAAAAAEBAAAAAAAAIAQAAAEAAhA=</HashCode>
+      <FileName>EasterEggBounce.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ShareX.AboutForm" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgECIYCAIAAQAAoDAAgACAAAoRQIUAMAgAAAEIgI=</HashCode>
+      <FileName>Forms\AboutForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.ActionsForm" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAKAAAiAACAEAAECAAMCKAAAAQEAAAgIAABAAAwQ=</HashCode>
+      <FileName>Forms\ActionsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.ActionsToolbarEditForm" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAICAAAAAQAACEgABCAAAAoABAaAAAAAAkAAA=</HashCode>
+      <FileName>Forms\ActionsToolbarEditForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.ActionsToolbarForm" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgCAAAIIACBAACCAAIKAABADAABAAAIAwEIAACARAgA=</HashCode>
+      <FileName>Forms\ActionsToolbarForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.AfterCaptureForm" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAAAAIACCCAEAPIIACQBAAiAQABEgAAAAIEAEBIEAA=</HashCode>
+      <FileName>Forms\AfterCaptureForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.AfterUploadForm" Collapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoMgEAAEiAAABAAQBCAABACAAIAQAEAAoAABEAQKAE=</HashCode>
+      <FileName>Forms\AfterUploadForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.ApplicationSettingsForm" Collapsed="true">
+    <Position X="31.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>9s1W9JmoibtMM5/OlbnkP/On8lEou6qRBoCD+jRS4n8=</HashCode>
+      <FileName>Forms\ApplicationSettingsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.AutoCaptureForm" Collapsed="true">
+    <Position X="33.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIABAAOBSAAKASIBECoaAwC5hBAAAEIYAGACgCIEiA=</HashCode>
+      <FileName>Forms\AutoCaptureForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.BeforeUploadForm" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAEAAACAAMAKAAAAAkAAAAAAAAABAAA=</HashCode>
+      <FileName>Forms\BeforeUploadForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.ClipboardFormatForm" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAoAAACAAgAEAAICAAMACAAAAgEQAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\ClipboardFormatForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.DropForm" Collapsed="true">
+    <Position X="26.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQCAAAhGAAAAEIAACAhAACRAhgAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Forms\DropForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.FileExistForm" Collapsed="true">
+    <Position X="31.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIBAACAAABkIAACAAEECIAIAgAAAAAQAgAABAIA=</HashCode>
+      <FileName>Forms\FileExistForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.FirstTimeConfigForm" Collapsed="true">
+    <Position X="33.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACEFAASAQABAFAACAAAACQAAACEAAAAQAAAABAAA=</HashCode>
+      <FileName>Forms\FirstTimeConfigForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.HotkeySettingsForm" Collapsed="true">
+    <Position X="26.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAgUQIASoQCgFQAASBAAAGCARAgAECAQAAEAAEAAI=</HashCode>
+      <FileName>Forms\HotkeySettingsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.MainForm" Collapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>bf3T//js//+7/2t/+5//N//rt/2/7+v//r//+/s18v4=</HashCode>
+      <FileName>Forms\MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.NotificationForm" Collapsed="true">
+    <Position X="28" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCAAAIAICADAAAgCACmAEACIEIEAMAAgBAAABiBAAg=</HashCode>
+      <FileName>Forms\NotificationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.NotificationFormConfig" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAACEAABCAAABACAAAAgA=</HashCode>
+      <FileName>Forms\NotificationForm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ShareX.QRCodeForm" Collapsed="true">
+    <Position X="33.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBABACoAADBCAAQDwECDAAACAAAYAAQBAgMEUABAAgA=</HashCode>
+      <FileName>Forms\QRCodeForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.QuickTaskInfoEditForm" Collapsed="true">
+    <Position X="21" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIICAAAAAAAADQAACCAAQAAEAAgAJABEAAAAQ=</HashCode>
+      <FileName>Forms\QuickTaskInfoEditForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.QuickTaskMenuEditorForm" Collapsed="true">
+    <Position X="24.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAwgAAAaAAAQAQAACIAAACCAAAxAACAYAAAAAEACI=</HashCode>
+      <FileName>Forms\QuickTaskMenuEditorForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.ScreenRecordForm" Collapsed="true">
+    <Position X="31.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgCYBQoAICAEBAEYCAqQAACCAAAATFSABiAEAIAGFBA=</HashCode>
+      <FileName>Forms\ScreenRecordForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.TaskSettingsForm" Collapsed="true">
+    <Position X="21" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/4/nvXv2pvt/99e33r/9nT73c7//r/159+7e1/x7/m8=</HashCode>
+      <FileName>Forms\TaskSettingsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.TextUploadForm" Collapsed="true">
+    <Position X="33.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAiAAAAEAAACAAEACAAAAAAAAAAAEACgAAAA=</HashCode>
+      <FileName>Forms\TextUploadForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.WatchFolderForm" Collapsed="true">
+    <Position X="29.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAkAAAAAACAgAAEAAMCAAMACAAIAAEQAAAAAAAAAAgA=</HashCode>
+      <FileName>Forms\WatchFolderForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.HotkeyManager" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="ShareX.HotkeyManager.HotkeyTriggerEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>HotkeyManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="ShareX.HotkeyManager.HotkeysToggledEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>HotkeyManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAGAAAEIAAAEACAAAAAAAAAgAAABAABAAAAQMoAACAA=</HashCode>
+      <FileName>HotkeyManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.HotkeysConfig" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HotkeysConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.HotkeySettings" Collapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>HotkeySettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.HotkeyTypeEnumConverter" Collapsed="true">
+    <Position X="28" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HotkeyTypeEnumConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.ImageData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAAAAAAEAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>ImageData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ShareX.ImageInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAgAAAGAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImageInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ShareX.IntegrationHelpers" Collapsed="true">
+    <Position X="33.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BFCCREABBCAAQqPpABIAI4IIAJCIQQIQgAEEGEgEOAA=</HashCode>
+      <FileName>IntegrationHelpers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.LanguageHelper" Collapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAAAAAAAAAAAIAAAAAAAAAAAABAQAAAAAAA=</HashCode>
+      <FileName>LanguageHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.NewsItem" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAQAAAAAKAAAAAA=</HashCode>
+      <FileName>NewsItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.NewsManager" Collapsed="true">
+    <Position X="26.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAgAAAAAAAACEACAAQAAABAAAAIAAAAAA=</HashCode>
+      <FileName>NewsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.Program" Collapsed="true">
+    <Position X="31.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEAICCIwBACaoEqpQMEQEAW18BEAgNIAgIYoRhBgAMY=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.QuickTaskInfo" Collapsed="true">
+    <Position X="19.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAEAAAEAAgAAAQAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickTaskInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.QuickTaskMenu" Collapsed="true">
+    <Position X="22.75" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="ShareX.QuickTaskMenu.TaskInfoSelectedEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>QuickTaskMenu.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAgAABAAA=</HashCode>
+      <FileName>QuickTaskMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.RecentTask" Collapsed="true">
+    <Position X="26.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAgAAAEAAAAAAAAACAAABAAAABAAABAQQA=</HashCode>
+      <FileName>RecentTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.RecentTaskManager" Collapsed="true">
+    <Position X="28" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAAAACAAAAAAAAAAAAAAAAAAAAAAgAAAAIAQFAAgA=</HashCode>
+      <FileName>RecentTaskManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.ScreenRecordManager" Collapsed="true">
+    <Position X="33.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAoAAAAAAAAACAAAAAAAAAAAAkAAAAAEkAAAAAA=</HashCode>
+      <FileName>ScreenRecordManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.SettingManager" Collapsed="true">
+    <Position X="19.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggECAIgBEEAQAIBJEQATjAAAAgAMAAgggAACgAAAAA=</HashCode>
+      <FileName>SettingManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.DesktopStartupManager">
+    <Position X="1" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StartupManagers\DesktopStartupManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.GenericStartupManager">
+    <Position X="1" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>StartupManagers\GenericStartupManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ShareX.StartupManagerSingletonProvider" Collapsed="true">
+    <Position X="21" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StartupManagers\StartupManagerSingletonProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.TaskHelpers" Collapsed="true">
+    <Position X="22.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gDgAYiCCEFAQgCQSCCBFNwwgYJAIgBjioFQEygIAQTg=</HashCode>
+      <FileName>TaskHelpers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.TaskInfo" Collapsed="true">
+    <Position X="24.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAMAEIAEAAEAAAAAIQAAAAKAEAAAABAZADAEAA=</HashCode>
+      <FileName>TaskInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.TaskListView" Collapsed="true">
+    <Position X="26.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAABAAAAAAAAAAAgAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>TaskListView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.TaskManager" Collapsed="true">
+    <Position X="28" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAgQgyAAAAAQAAAQBABEAEAAjAAQgAUIAAQBAgA=</HashCode>
+      <FileName>TaskManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.TaskSettings" Collapsed="true">
+    <Position X="31.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAAwAUAIAjgAQHBAAgAEAQJADCIhACADACSQC8CAA=</HashCode>
+      <FileName>TaskSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.TaskSettingsGeneral" Collapsed="true">
+    <Position X="22.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAgAAAAAAAAQAAAAAQgAAACAAAAAAAA=</HashCode>
+      <FileName>TaskSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.TaskSettingsImage" Collapsed="true">
+    <Position X="24.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIBAkgACAAAAAAAAAAAAgAAAAAEAAAAAAABAICAYAAA=</HashCode>
+      <FileName>TaskSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.TaskSettingsCapture" Collapsed="true">
+    <Position X="19.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAQIABQAABAAAgAgABAAgAKgAAgAggCMAQAAAA=</HashCode>
+      <FileName>TaskSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.TaskSettingsUpload" Collapsed="true">
+    <Position X="28" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAQQAAAAIIAAAAAACAAEAAQAAQQAAIQAA=</HashCode>
+      <FileName>TaskSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.TaskSettingsTools" Collapsed="true">
+    <Position X="26.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAQAQA=</HashCode>
+      <FileName>TaskSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.TaskSettingsAdvanced" Collapsed="true">
+    <Position X="33.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kQYBDABABAACAAGIQAAhWAAAFGJAAiAAABACQQBKKOI=</HashCode>
+      <FileName>TaskSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.UploadInfoManager" Collapsed="true">
+    <Position X="19.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAIsIJAgAIAAAQhEIAAkCRIKoAEAJRD8AiSmEIgU=</HashCode>
+      <FileName>UploadInfoManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.UploadInfoParser" Collapsed="true">
+    <Position X="21" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAACEAIIQAAIAAIAAAAAABAIAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>UploadInfoParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.UploadInfoStatus" Collapsed="true">
+    <Position X="22.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAQAAAAAAEACAAIAAEAAAAgAAIAAAIEAkAGAAAAA=</HashCode>
+      <FileName>UploadInfoStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.UploadManager" Collapsed="true">
+    <Position X="24.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAABAAAgCAAAQiACAAAAoAAAAACAhRhIAIAIQUAAA=</HashCode>
+      <FileName>UploadManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.WatchFolder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="7.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="ShareX.WatchFolder.FileWatcherTriggerEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>WatchFolder.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAACAAAAgAABAACAEAAAAAAgAAgAAAgAAAEAA=</HashCode>
+      <FileName>WatchFolder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ShareX.WatchFolderDuplicateEventTimer" Collapsed="true">
+    <Position X="28" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAAAAAAAAACAAAAAAAAIAAAAAQAAAAAAAA=</HashCode>
+      <FileName>WatchFolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.WatchFolderManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgAAACAACAAAAAAAAAACAAAAAAAAQAAAQAgAAAAAAA=</HashCode>
+      <FileName>WatchFolderManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ShareX.WatchFolderSettings" Collapsed="true">
+    <Position X="33.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAACAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WatchFolderSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareX.WorkerTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="8.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="ShareX.WorkerTask.TaskEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>WorkerTask.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="ShareX.WorkerTask.UploaderServiceEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>WorkerTask.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>YSQBBAQGBCAgwAEIECAAKA3QQEEMAFgxZlAgCEQ0AtE=</HashCode>
+      <FileName>WorkerTask.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ShareX.Properties.Resources" Collapsed="true">
+    <Position X="29.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>2/FNFvq+37/b/2lV8i1J/Dn83bay/au5P9//rs8zmt8=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ShareX.IStartupManager" Collapsed="true">
+    <Position X="19.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>StartupManagers\IStartupManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ShareX.ShareXBuild" Collapsed="true">
+    <Position X="24.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAQAAACAAAAAAAAAAABAAABA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.SupportedLanguage" Collapsed="true">
+    <Position X="28" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAACQAACAAAAAQEAAAAAIBAAIBAg0QIAoAAAAAEA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.TaskJob" Collapsed="true">
+    <Position X="29.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAABACAAAABAEAAAAEAkA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.TaskStatus" Collapsed="true">
+    <Position X="31.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAIAAAIAAAAAAAAAAAAAAAAAEBAKAAAAAAQ=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.AfterCaptureTasks" Collapsed="true">
+    <Position X="19.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEBAQAAgAAAgAAABAAAAAAEAAAAQAABADAVAEAECCAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.AfterUploadTasks" Collapsed="true">
+    <Position X="21" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAQAAAAAAAAAAAAQAAACQEEAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.CaptureType" Collapsed="true">
+    <Position X="24.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAlAAAAAAAAACAAAAAAAAAAAYAAAACCAAAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.ScreenRecordStartMethod" Collapsed="true">
+    <Position X="21" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAkAAAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.HotkeyType" Collapsed="true">
+    <Position X="28" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIAICAAFABMICAQNAMAxIhAQBAAiERRpIBLQgVQIQA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.PopUpNotificationType" Collapsed="true">
+    <Position X="33.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAUAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.ToastClickAction" Collapsed="true">
+    <Position X="21" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAIAAAAAAAAAgAAAAAAERBCAAAAAAAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.FileExistAction" Collapsed="true">
+    <Position X="26.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAACAAAAAAAAAAAAAQAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.ImagePreviewVisibility" Collapsed="true">
+    <Position X="31.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAMAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.ImagePreviewLocation" Collapsed="true">
+    <Position X="29.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.ThumbnailTitleLocation" Collapsed="true">
+    <Position X="19.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.ScreenRecordState" Collapsed="true">
+    <Position X="22.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAABAAAAAAAAgAAAAAAAAAAAQAgAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.RegionCaptureType" Collapsed="true">
+    <Position X="19.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.StartupState" Collapsed="true">
+    <Position X="26.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAIAEAACAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.BalloonTipClickAction" Collapsed="true">
+    <Position X="22.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAQEAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareX.TaskViewMode" Collapsed="true">
+    <Position X="33.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
